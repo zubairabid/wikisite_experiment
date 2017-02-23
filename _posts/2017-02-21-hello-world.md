@@ -1,6 +1,7 @@
 ---
-title: he110 w0r1d
+title: Hello World - TheReviewIndex
 description: The first blog post to introduce TheReviewIndex.
+header: he110 w0r1d
 ---
 
 
