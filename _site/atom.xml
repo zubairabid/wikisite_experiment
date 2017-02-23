@@ -4,7 +4,7 @@
  <title>Blog - technology and science at TheReviewIndex</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-02-23T13:07:19+05:30</updated>
+ <updated>2017-02-23T18:48:50+05:30</updated>
  <author>
    <name>The Review Index</name>
    <uri>https://thereviewindex.com</uri>
@@ -14,7 +14,7 @@
  
 
  <entry>
-   <title>f@q</title>
+   <title>frequent1y @sked questi0ns</title>
    <link href="http://localhost:4000/frequently-asked-questions"/>
    <id>http://localhost:4000/frequently-asked-questions</id>
    <updated>2017-02-22T00:00:00+05:30</updated>

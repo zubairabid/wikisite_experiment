@@ -1,5 +1,5 @@
 ---
-title: f@q
+title: frequent1y @sked questi0ns
 description: The first blog post to introduce TheRevie
 ---
 
@@ -10,30 +10,31 @@ What is TheReviewIndex all about?
 
 How does it work?
 
-> We crawl various sources on the internet, aggregate and reconcile reviews for products. Leveraging machine Learning algorithms and artificial neural networks, we detect fine-grained topics and implicit sentiment, after blacklisting potentially fraudulant content. This information is churned and presented as an unbiased, feature-wise summary scorecard of the aggregate opinion, along with the relevant pros and cons. A search engine sits on top of this insights layer, enabling discovery based on specific feature requirements.
+> We crawl various sources on the internet, aggregate and reconcile reviews for products. Leveraging machine learning algorithms and artificial neural networks, we detect fine-grained topics and implicit sentiment, after blacklisting potentially fraudulant content. This information is churned and presented as an unbiased, feature-wise summary scorecard of the aggregate opinion, along with the relevant pros and cons. A search engine sits on top of this insights layer, enabling discovery based on specific feature requirements.
 
 
 Where does TheReviewIndex get the data?
 
-> TheReviewIndex requires data such as products catalog, reviews, specifications, etc. We crawl and aggregate all publicaly available information from across various public webpages and then churn insights and informtion to be presented.
+> TheReviewIndex requires data such as products catalog, reviews, specifications, etc. We crawl and aggregate all available information from across various public webpages. This data is then churned to get presentable insights.
 
 
 How do you calculate the overall rating?
 
-> Very simply put, first, a score is computed for each feature (e.g battery, camera, etc) of the product by taking into account factors such as- volume and split of positive vs negative review sentences, strength of sentiment, etc. Then, all the individual feature scores are intelligently combined, giving due importance to critical features, to get the overall rating. This rating is converted to a percentile view and presented.  
+> First, a score is computed for each feature (e.g battery, camera, etc) of the product by taking into account factors such as - volume and split of positive vs negative review sentences, strength of sentiment, etc. Then, all the individual feature scores are combined, giving due importance to critical features, to get the overall rating. This rating is converted to a percentile view and presented.  
 
 
 
 I noticed some discrepencies in the data quality? What do I do?
 
-> We use machine learning algorithms to perform a bulk of the data churning activities such as detecting topics of discussion in review sentences as well as the sentiment. These algorithms are fuzzy and will never be 100% correct. Hence, it is possible that there will be a few cases of incorrect classification.  
-> Having said that, we constantly monitor the quality of algorithms and data to ensure the highest possible accuracy and to minimize these outliers from influencing the eventual outcome.   
-> After taking those points into consideration, if you still don’t agree with a report, please contact us and let us know the URL to the report on our site, along with why you believe the report to be inaccurate. Keep in mind that we will never make individual changes on reports but will take your comments into consideration when tweaking our algorithms.
+> We use machine learning algorithms to perform activities such as detecting topics of discussion and sentiment in review sentences. It is possible that there will be a few cases of incorrect classification.  
+> Having said that, we constantly monitor the quality of algorithms and data to maximize accuracy and ensure that these outliers do not influence the eventual outcome or recommendation.   
+> After taking above points into consideration, if you still think that there are large discrepencies, please write to us at **root@thereviewindex.com** with the details and we will take these inputs into consideration while tweaking our algorithms.
 
 
-How can we trust TheReviewIndex? How do we know that the evaluation is fair?
+How can I trust TheReviewIndex? How do I know that the evaluation is fair?
 
-> That''s a great question. Theres plenty of suspicious, noisy sites out there and its only practical to be skeptical.  
+> We have deliberated over this question from the very beginning. Since building and keeping trust with you is very important to us, we have designed the product to ensure that every recommendation is strongly supported by solid evidence, in case you choose to drill deeper. If you choose to, you can drill down and read all individual user comments that contributes toward the score of each feature. Not just that, all these comments are properly attributed and linked back to the origin.  
+
 
 How does the site make money?
 
