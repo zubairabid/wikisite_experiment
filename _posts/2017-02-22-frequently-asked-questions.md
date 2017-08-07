@@ -57,9 +57,9 @@ How do you deal with review spam?
 
 > One of the major concerns of online opinions is the problem of spam and incentivized reviews. Although, a single spammy review does not receive too much importance (since we rely on mass opinion for making our judgements), several spammy reviews can be misleading, often drowning actual user opinion.
 
-We think that spam, much like any other crime, will leave behind a trail. This is true especially when spamming is done at scale. We try to identify these and in the spirit of transparency (like rest of the site), we are starting to expose the underlying data points that contributed to our decision.
+> We think that spam, much like any other crime, will leave behind a trail. This is true especially when spamming is done at scale. We try to identify these and in the spirit of transparency (like rest of the site), we are starting to expose the underlying data points that contributed to our decision.
 
-Right now we expose only a couple of signals out, but we will be rolling out a more comprehensive set of signals in the near future.
+> Right now we expose only a couple of signals out, but we will be rolling out a more comprehensive set of signals in the near future.
 
 
 
