@@ -11,7 +11,7 @@ What is TheReviewIndex all about?
 
 How does it work?
 
-> We crawl various sources on the internet, aggregate and reconcile user reviews for products. Leveraging machine learning algorithms, we detect fine-grained topics and implicit sentiment, after blacklisting potentially fraudulant content. This information is churned and presented as an unbiased, feature-wise summary scorecard of the aggregate opinion, along with the relevant pros and cons. A search engine sits on top of this insights layer, enabling discovery based on specific feature requirements.
+> We crawl various sources on the internet, aggregate and reconcile user reviews for products. Leveraging machine learning algorithms, we detect fine-grained topics and implicit sentiment, after blacklisting potentially unnatural content. This information is churned and presented as an unbiased, feature-wise summary scorecard of the aggregate opinion, along with the relevant pros and cons. A search engine sits on top of this, enabling discovery based on specific feature requirements.
 
 
 Where does TheReviewIndex get the data?
@@ -21,9 +21,8 @@ Where does TheReviewIndex get the data?
 
 How do you calculate the overall product rating?
 
-> First, a score is computed for each feature (e.g battery, display, etc) of the product by taking into account factors such as - volume of opinion, split of positive vs negative opinion, strength of sentiment, etc - and stack ranking them against all other products in the category. 
+> First, we get a sense of how good each feature (e.g battery, display, etc) of the product is by taking into account signals such as - number of mentions of the feature across all reviews, split of positive vs negative opinion, strength of sentiment, etc, and then comparing each feature of a product with other products in the category. 
 > Then, all the individual feature scores are combined, giving due importance to critical features, to get the overall rating. This rating is converted to a percentile view and presented.  
-
 
 
 I noticed some discrepencies in the data quality? What do I do?
@@ -35,7 +34,7 @@ I noticed some discrepencies in the data quality? What do I do?
 
 How can I trust TheReviewIndex? How do I know that the evaluation is fair?
 
-> We have deliberated over this question from the very beginning. Since building and keeping trust with you is very important to us, we have designed the product to ensure that every recommendation is strongly supported by solid evidence, in case you choose to drill deeper. If you choose to, you can drill down and read all individual user comments that contributes toward the score of each feature. Not just that, all these comments are properly attributed and linked back to the origin.  
+> We have deliberated over this question from the very beginning. Since building and keeping trust with you is very important to us, we have designed the product to ensure that every score or recommendation is strongly supported by solid evidence. If you want to drill deeper, you can click through and read all individual user comments that contributes toward the score of each feature. Not just that, all these comments are properly attributed and linked back to the origin.  
 
 
 How does the site make money?
@@ -45,7 +44,7 @@ How does the site make money?
 
 Why is XYZ product missing?
 
-> We try to keep the site as updated as possible. But sometimes due to various reasons, in rare situations, some products can be missing in our database. If you notice a product missing, please drop a note to root@thereviewindex.com and we'll try our best to rectify!
+> We try to keep the site as updated as possible. But sometimes, due to various reasons, some products can be missing in our database. If you notice a product missing, please drop a note to root@thereviewindex.com and we'll try our best to rectify.
 
 
 You do not have the category that I am looking for. What do I do?
