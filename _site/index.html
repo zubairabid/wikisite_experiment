@@ -23,7 +23,18 @@
 
 
 <body>
-	<div id="wrap">
+  
+  <!-- Facebook Comments Script -->
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11&appId=288262758360783';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <div id="wrap">
 	  	
 	  	<!-- Navigation -->
 	  	<nav id="nav">
@@ -124,27 +135,47 @@
 		<main>
 
 			<!-- Posts -->
-<ul id="posts">
+<div id="posts">
 
 	
 
-	  <li class="post">
+	  <div class="post">
+	  	<h2><a href="/blog/science-toilet-paper-reviews">Let's science the shit out of Toilet Paper Reviews</a></h2>
+      <div class="by-line parent">
+        <time datetime="2017-11-23T00:00:00-03:00"> <i>23 Nov 2017</i> </time>
+        &nbsp;&nbsp; &middot; &nbsp;&nbsp;
+        <span><i>7 minutes read</i> </span>
+      </div>
+      <p>Bunch of text. Test text. Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch...</p>
+	  </div>
+
+    
+
+	  <div class="post">
 	  	<h2><a href="/blog/frequently-asked-questions">frequent1y @sked questi0ns</a></h2>
-      <time datetime="2017-02-22T00:00:00+05:30" class="by-line"> <i>22 Feb 2017</i> </time>
-	  	<p>What is TheReviewIndex all about? TheReviewIndex is an independent site that aspires to simplify online shopping, by organizing and summarizing user reviews from various online sources. All user reviews, from across sources, are summarized and presented as an unbiased, feature-wise summary to make reading reviews more efficient. Not just that,...</p>
-	  </li>
+      <div class="by-line parent">
+        <time datetime="2017-02-22T00:00:00-03:00"> <i>22 Feb 2017</i> </time>
+        &nbsp;&nbsp; &middot; &nbsp;&nbsp;
+        <span><i>5 minutes read</i> </span>
+      </div>
+      <p>What is TheReviewIndex all about? TheReviewIndex is an independent site that aspires to simplify online shopping, by organizing and summarizing user reviews from various online sources. All user reviews, from across sources, are summarized and presented as an unbiased, feature-wise summary to make reading reviews more efficient. Not just that,...</p>
+	  </div>
 
     
 
-	  <li class="post">
+	  <div class="post">
 	  	<h2><a href="/blog/hello-world">he110 w0r1d</a></h2>
-      <time datetime="2017-02-21T00:00:00+05:30" class="by-line"> <i>21 Feb 2017</i> </time>
-	  	<p>We are TheReviewIndex.com - here to help you discover the right gadgets for your very individual needs. The internet is a source of a humongous amounts of unstructured content for all sorts of products, in the form of blogs, videos, user and expert reviews, etc. It is almost impossible for...</p>
-	  </li>
+      <div class="by-line parent">
+        <time datetime="2017-02-21T00:00:00-03:00"> <i>21 Feb 2017</i> </time>
+        &nbsp;&nbsp; &middot; &nbsp;&nbsp;
+        <span><i>1 minute read</i> </span>
+      </div>
+      <p>Hi there. We are TheReviewIndex.com - here to help you discover the right gadgets for your very individual needs. As you know, the internet is a source of humongous amounts of unstructured information, in the form of blogs, videos, user and expert reviews, etc, for all sorts of gadgets. It...</p>
+	  </div>
 
     
 
-</ul>
+</div>
 
 
 	  </main>
@@ -155,8 +186,10 @@
 	  </div>
 	    
 	    <!-- Footer -->
-	    <footer><span>@2017 - TheReviewIndex</span></footer>
+      <div class="m-t-6e">
+        <footer><span>&#169;2017 - TheReviewIndex</span></footer>
 
+      </div>
 
 	    <!-- Script -->
       <script src="/blog/js/main.js"></script>	
