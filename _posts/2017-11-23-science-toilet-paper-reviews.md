@@ -33,7 +33,7 @@ A possible solution to the above problem, is to perhaps involve the consumers in
 
 But, in order to understand what a customer thinks about a product there needs to be a channel or medium of communication. And often the channel that is used for evaluation studies are Surveys and Questionnaiers.
 
-Designing the right survey to incite unbiased responses is challenging. And of course, the well documented (Response Bias)[https://en.wikipedia.org/wiki/Response_bias], which is a wide range of cognitive biases that influences the participants to respond inaccurately. 
+Designing the right survey to incite unbiased responses is challenging. And of course, the well documented [Response Bias](https://en.wikipedia.org/wiki/Response_bias), which is a wide range of cognitive biases that influences the participants to respond inaccurately. 
 
 Hypothetically, even if we were to be able to come up with a magical questionnaire that records participants true responses accross all aspects of the product, it would be very likely impossible to combine the results of all the tests and decide on the best product - Are all questions equally important ? How does one determine how important each aspect is and assign weights for each question ?
 
@@ -69,8 +69,14 @@ We start off by removing the unverified reviews and clustering the review senten
 
 For now, we do not consider the top two topics in the above list - reason being that the "overall product" statements are too generic, loosely used and volume-wise dominates every other topic and the "marketplace / delivery related" topic is not directly related to the product.
 
-[PIE CHART]
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1811714180&amp;format=interactive"></iframe>
+<div class="show-only-small" align="center">
+  <iframe width="314" height="194" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1811714180&amp;format=interactive"></iframe>
+</div>
+
+<div class="show-only-large" align="center">
+  <iframe width="575.4219664768625" height="355.4349555051674" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1061894387&amp;format=interactive"></iframe>
+</div>
+
 
 Apart from the above, the other recurring patterns (that had very low volumes compared to the above) were:
 * Purchase as a gag gift
@@ -83,10 +89,12 @@ We then break down the sentiment associated with each statement in these topics.
 * Absolute volume of the topic mentions
 
 A very simple scoring function for positive mentions of a topic `topic1` can be given by
-```
+
+<span class="code">
 topic1_pos_score = (num_pos_for_topic1 / expected_num_pos_for_topic1) * log10(num_pos_for_topic1)
-```
-where the `num_pos_for_topic1` is the number of positive mentions of topic1 and `expected_num_pos_for_topic1` is the expected number of positive mentions (based on overall positive mentions across all products). The ratio of the actual counts and expected counts quantifies the magnitude of positive (or negative) sentiment, and the log10 helps us factor in the volume. We sum up the postive topic scores and subtract the negative topic scores to arrive at the final scores for each product.
+</span>
+
+where the <span class="code"> num_pos_for_topic1 </span> is the number of positive mentions of topic1 and <span class="code">expected_num_pos_for_topic1</span> is the expected number of positive mentions (based on overall positive mentions across all products). The ratio of the actual counts and expected counts quantifies the magnitude of positive (or negative) sentiment, and the log10 helps us factor in the volume. We sum up the postive topic scores and subtract the negative topic scores to arrive at the final scores for each product.
 
 
 
@@ -115,19 +123,9 @@ And the most comfortable are:
 
 Why stop at just toilet papers?
 
-We at <h1> <span>the</span>review<span>index</span> </h1> believe that this can be used for all reviews - which is why we've just launched a tool that creates spam filtered review summaries for any Amazon.com electronic / gadget / appliance.
+We at the<span class="fw-400">review</span>index believe that this can be used for all reviews - which is why we've just launched a tool that creates spam filtered review summaries for any Amazon.com electronic / gadget / appliance.
 
 Shopping is hard, lets use machine learning!
 
 
 
-<div>
-  <div  style="width:320px">
-    <img src="http://media.gettyimages.com/photos/horse-and-dog-first-meet-picture-id471121887" alt="test" />
-    random text just after image
-  </div>
-  <div style="width:320px">
-    <img src="http://media.gettyimages.com/photos/horse-and-dog-first-meet-picture-id471121887" alt="test" />
-    random text just after image
-  </div>
-</div>

@@ -56,6 +56,18 @@ a {
 	}
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  .show-only-large {display:none}
+  .show-only-small {display:block}
+}
+
+@media screen and (min-width: 600px) {
+  .show-only-large {display:block}
+  .show-only-small {display:none}
+}
+
 /* Common classes */
 
 .f-right { float: right; }
@@ -94,3 +106,9 @@ a {
 
 // borders
 .border-l-l {border-left: 1px solid #f2f2f2}
+
+//code
+.code
+{
+  font-family:monospace;
+}

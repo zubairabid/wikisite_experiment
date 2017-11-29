@@ -4,7 +4,7 @@
  <title>Blog - technology and science at TheReviewIndex</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-11-28T21:18:24-03:00</updated>
+ <updated>2017-11-28T22:26:27-03:00</updated>
  <author>
    <name>The Review Index</name>
    <uri>https://thereviewindex.com</uri>
@@ -27,7 +27,7 @@
    <title>Frequently Asked Questions - TheReviewIndex</title>
    <link href="http://localhost:4000/frequently-asked-questions"/>
    <id>http://localhost:4000/frequently-asked-questions</id>
-   <updated>2017-02-22T00:00:00-03:00</updated>
+   <updated>2017-11-15T00:00:00-03:00</updated>
    <content type="html">&lt;p&gt;What is TheReviewIndex all about?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;TheReviewIndex is an independent site that aspires to simplify online shopping, by organizing and summarizing user reviews from various online sources. All user reviews, from across sources, are summarized and presented as an unbiased, feature-wise summary to make reading reviews more efficient. Not just...</content>
  </entry>
 
@@ -37,8 +37,8 @@
    <title>Hello World - TheReviewIndex</title>
    <link href="http://localhost:4000/hello-world"/>
    <id>http://localhost:4000/hello-world</id>
-   <updated>2017-02-21T00:00:00-03:00</updated>
-   <content type="html">&lt;p&gt;Hi there. We are TheReviewIndex.com - here to help you discover the right gadgets for your very individual needs.&lt;/p&gt; &lt;p&gt;As you know, the internet is a source of humongous amounts of unstructured information, in the form of blogs, videos, user and expert reviews, etc, for all sorts of gadgets. It...</content>
+   <updated>2017-11-05T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt; &lt;/p&gt; &lt;p&gt;Hi there.&lt;/p&gt; &lt;p&gt;We are TheReviewIndex.&lt;/p&gt; &lt;p&gt;We thought reading reviews, on sites like Amazon, is a bit too tedious. Most products have hundreds, even thousands of reviews. It’s impossible to make sense of that many reviews, let alone compare across products.&lt;/p&gt; &lt;p&gt;So we built &lt;a href=&quot;https://thereviewindex.com&quot;&gt;The Review Index&lt;/a&gt; that uses...</content>
  </entry>
 
  
