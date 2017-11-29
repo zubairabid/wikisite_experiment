@@ -1,5 +1,5 @@
 ---
-title: Let's science the shit out of Toilet Paper Reviews 
+title: Let's science the sh*t out of Toilet Paper Reviews 
 description: Thousands of toilet paper reviews analyzed scientifically to determine the best quality products.
 header: Let's Science The Sh*t Out Of Toilet Paper Reviews
 duration: 7 minutes read
@@ -97,15 +97,89 @@ topic1_pos_score = (num_pos_for_topic1 / expected_num_pos_for_topic1) * log10(nu
 where the <span class="code"> num_pos_for_topic1 </span> is the number of positive mentions of topic1 and <span class="code">expected_num_pos_for_topic1</span> is the expected number of positive mentions (based on overall positive mentions across all products). The ratio of the actual counts and expected counts quantifies the magnitude of positive (or negative) sentiment, and the log10 helps us factor in the volume. We sum up the postive topic scores and subtract the negative topic scores to arrive at the final scores for each product.
 
 
+[//]: # (Best 2 - Overall)
+
+<div class="show-only-small">
+  <div align="center">
+    <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=699489827&amp;format=interactive"></iframe>
+  </div>
+  
+  <div align="center">
+    <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=291609438&amp;format=interactive"></iframe>
+  </div>
+  
+  
+</div>
+
+<div class="show-only-large">
+  <div class="parent">
+    <div align="center" style="width:50%">
+      <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=699489827&amp;format=interactive"></iframe>
+    </div>
+    
+    <div align="center" style="width:50%">
+      <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=291609438&amp;format=interactive"></iframe>
+    </div>
+  </div>
+</div>
 
 
+[//]: # (Worst 2 - Overall)
 
+<div class="show-only-small">
+  <div align="center">
+    <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1405553136&amp;format=interactive"></iframe>
 
+  </div>
+  
+  <div align="center">
+    <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=151801927&amp;format=interactive"></iframe>
+  </div>
+  
+  
+</div>
 
+<div class="show-only-large">
+  <div class="parent">
+    <div align="center" style="width:50%">
+      <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1405553136&amp;format=interactive"></iframe>
+    </div>
+    
+    <div align="center" style="width:50%">
+      <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=151801927&amp;format=interactive"></iframe>
+    </div>
+  </div>
+</div>
 
 
 We can even get the top TPs for each aspect, like for eg. the top TPs to avoid a clog are:
 
+
+[//]: # (Best 2 - Clog)
+
+<div class="show-only-small">
+  <div align="center">
+    <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=883957297&amp;format=interactive"></iframe>
+  </div>
+  
+  <div align="center">
+    <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1522105939&amp;format=interactive"></iframe>
+  </div>
+  
+  
+</div>
+
+<div class="show-only-large">
+  <div class="parent">
+    <div align="center" style="width:50%">
+      <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=883957297&amp;format=interactive"></iframe>
+    </div>
+    
+    <div align="center" style="width:50%">
+      <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1522105939&amp;format=interactive"></iframe>
+    </div>
+  </div>
+</div>
 
 
 
@@ -113,6 +187,33 @@ We can even get the top TPs for each aspect, like for eg. the top TPs to avoid a
 
 
 And the most comfortable are:
+
+
+[//]: # (Best 2 - Comfort)
+
+<div class="show-only-small">
+  <div align="center">
+    <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1671651341&amp;format=interactive"></iframe>
+  </div>
+  
+  <div align="center">
+    <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1159011893&amp;format=interactive"></iframe>
+  </div>
+  
+  
+</div>
+
+<div class="show-only-large">
+  <div class="parent">
+    <div align="center" style="width:50%">
+      <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1671651341&amp;format=interactive"></iframe>
+    </div>
+    
+    <div align="center" style="width:50%">
+      <iframe width="289.11044270195214" height="369" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1159011893&amp;format=interactive"></iframe>
+    </div>
+  </div>
+</div>
 
 
 
