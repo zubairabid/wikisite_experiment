@@ -5,6 +5,8 @@ header: Let's Science The Sh*t Out Of Toilet Paper Reviews
 duration: 7 minutes read
 ---
 
+<img src="img/tp-header.png" />
+
 Toilet papers. Seems like an insignificant everyday household item. But, did you know that there are over 50 brands of toilet paper on just Amazon.com - with over 9000 product listings?
 
 So, how exactly does one pick the right toilet paper to use - hopefully in a quantified, scientific way?
@@ -28,7 +30,7 @@ These often involve analyzing the physical characteristics of TP using tests suc
 
 The good part about such types of evaluations is that they can be completely objective. The tests (if conducted properly) can objectively and precisely measure the aspect. 
 
-The issue with this kind of evaluation, though, is that it is often impossible to arrive at tests that can objectively grade each and every aspect of a product - for eg. what kind of a test can be used to quantify "comfort" ? 
+The issue with this kind of evaluation, though, is that it is often impossible to arrive at tests that can objectively grade each and every aspect of a product or incorporate actual consumer experiences - for eg. what kind of a test can be used to quantify "comfort" ? 
 
 ### Surveys
 A possible solution to the above problem, is to perhaps involve the consumers in the grading process - after all who better to measure the product than the end users of the product itself!
