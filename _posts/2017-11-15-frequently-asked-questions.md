@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions - TheReviewIndex
 description: The first blog post to introduce TheRevie
-header: frequent1y @sked questi0ns
+header: Frequently Asked Questions 
 duration: 5 minutes read
 ---
 

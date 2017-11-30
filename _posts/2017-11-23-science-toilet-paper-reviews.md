@@ -61,26 +61,78 @@ After the above clean ups, we ended up with 29574 reviews across 274 products (o
 
 We cluster the review sentences to extract the most spoken about topics in the reviews. Following are the recurring topics that start to emerge:
 
-* Overall Product: *"the product was great", "did the job", etc.*
-* Marketplace / Delivery: *"was delivered on time", "doorstep delivery" etc.*
-* Paper Quality: "strong", "durable", "doesn't tear" etc.
-* Comfort: "soft", "cushy", "its like wiping my fat bottom with angel tears" etc.
-* Value For Money: "worth the price", "bargain", "rip off" etc.
-* Lasts Long: "lasts forever", "ran out in a day" etc.
-* Size: "not as big as expected", "just right in size" etc.
-* Cleaning: "squeaky clean bum", "leaves quite a bit of fuzz behind" etc.
-* Clogging: "clogs the sewer line", "gentle on the plumbing", "had to use the plunger" etc.
-* Dispenser: "barely fit my holder" etc.
 
-Some other low volume clusters are:
-* Purchase as a gag gift
-* Eco-friendlyness
-* Use while travelling and in public restrooms
-* Perfumed TPs :S
+<table>
+  <td>
+    TOPIC CLUSTERS
+  </td>
+  <td>
+    SAMPLE PHRASES
+  </td>
+  <tr class="fc-light">
+    <td>Overall</td>
+    <td><i>"the product was great", "did the job"</i> ...</td>
+  </tr>
+  <tr class="fc-light">
+    <td>Marketplace / Delivery &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>"was delivered on time", "doorstep delivery" ...</td>
+  </tr>
+  <tr>
+    <td>Paper Quality</td>
+    <td>"strong", "durable", "doesn't tear" ...</td>
+  </tr>
+  <tr>
+    <td>Comfort</td>
+    <td>"soft", "cushy", "its like wiping my fat bottom with angel tears" ...</td>
+  </tr>
+  <tr>
+    <td>Value For Money</td>
+    <td>"worth the price", "bargain", "rip off" ...</td>
+  </tr>
+  <tr>
+    <td>Lasts Long</td>
+    <td>"lasts forever", "ran out in a day" ...</td>
+  </tr>
+  <tr>
+    <td>Size</td>
+    <td>"not as big as expected", "just right in size" ...</td>
+  </tr>
+  <tr>
+    <td>Cleaning</td>
+    <td>"squeaky clean bum", "leaves quite a bit of fuzz behind" ...</td>
+  </tr>
+  <tr>
+    <td>Clogging</td>
+    <td>"clogs the sewer line", "gentle on the plumbing", "had to use the plunger" ...</td>
+  </tr>
+  <tr>
+    <td>Dispenser</td>
+    <td>"barely fit my holder" ...</td>
+  </tr>
+  <tr class="fc-light">
+    <td>Gag Gift</td>
+    <td>"gag gift for my roommate", "gift as a prank" ...</td>
+  </tr>
+  <tr class="fc-light">
+    <td>Eco-Friendly</td>
+    <td>"environmentally friendly", "made of recycled paper" ...</td>
+  </tr>
+  <tr class="fc-light">
+    <td>Travel</td>
+    <td>"carry in your purse or pocket", "great for travel" ...</td>
+  </tr>
+  <tr class="fc-light">
+    <td>Perfumed TPs</td>
+    <td>"smell is so strong", "smell soooooo good" ...</td>
+  </tr>
+</table>
 
-For the purpose of this exercise, we will not consider the top two topics in the above list - reason being that the "Overall Product" statements are too generic, loosely used and volume-wise dominates every other topic, and the "Marketplace / Delivery" topic is not directly related to the product. We discard the low volume clusters as well.
+&nbsp;
 
-Let's look at the volume distribution for the number of sentences in each of the remaining clusters:
+
+For the purpose of this exercise, we will not consider the top two topics in the above list - reason being that the "Overall Product" statements are too generic, loosely used and volume-wise dominates every other topic, and the "Marketplace / Delivery" topic is not directly related to the product. We discard the (bottom four) low volume clusters as well.
+
+Let's look at the final set of clusters with their volume distribution:
 
 <div class="show-only-small" align="center">
   <iframe width="314" height="194" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1811714180&amp;format=interactive"></iframe>
@@ -94,7 +146,7 @@ Let's look at the volume distribution for the number of sentences in each of the
 
 Each sentence is then passed to a sentiment classifier to arrive at the positive and negative polarity. This gives us a topic-wise polarity of the products. We can now start to compare topics across products to arrive at an overall product ranking.
 
-The best products, according to our analysis are:
+The <span class="fw-400">best</span> products, according to our analysis are:
 
 [//]: # (Best 2 - Overall)
 
@@ -122,7 +174,7 @@ The best products, according to our analysis are:
   </div>
 </div>
 
-... and the worst products on our list are:
+... and the <span class="fw-400">worst</span> products on our list are:
 
 [//]: # (Worst 2 - Overall)
 
@@ -153,7 +205,7 @@ The best products, according to our analysis are:
 
 Note that we not only have a ranking, but also a justification - for eg. the worst product is a Tubeless TP, which seems to have a lot of holder / dispenser related compaints.
 
-We can even sort by any topic and pick the topic-wise best products, for eg. the best TPs for preventing clogging are:
+We can even sort by any topic and pick the topic-wise best products, for eg. the best TPs for preventing <span class="fw-400">clogging</span> are:
 
 
 [//]: # (Best 2 - Clog)
@@ -184,9 +236,9 @@ We can even sort by any topic and pick the topic-wise best products, for eg. the
 
 Why stop at just toilet papers?
 
-We at the<span class="fw-400">review</span>index believe that similar techniques can be used for analyzing all kinds of reviews - which is why we've just launched a tool that creates spam filtered review summaries for any Amazon.com electronic / gadget / appliance.
+We at [The<span class="fw-400">Review</span>Index](https://thereviewindex.com) believe that similar techniques can be used for analyzing all kinds of reviews - which is why we've just launched a tool that creates spam filtered review summaries for any Amazon.com electronic / gadget / appliance.
 
-You can try the tool out here: https://thereviewindex.com and let us know what you think in the comments section below.
+You can try the tool out here: [https://thereviewindex.com](https://thereviewindex.com) and let us know what you think in the comments section below.
 
 <img src="img/shopping.jpg">
 

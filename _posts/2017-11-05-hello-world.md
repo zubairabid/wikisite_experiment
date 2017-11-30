@@ -1,7 +1,7 @@
 ---
 title: Hello World - TheReviewIndex
 description: The first blog post to introduce TheReviewIndex.
-header: he110 w0r1d
+header: Hello World!
 duration: 1 minute read
 ---
 

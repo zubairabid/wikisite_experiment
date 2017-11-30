@@ -114,11 +114,17 @@ a {
 .fs-12e {
   font-size: 1.2em; }
 
+.fc-light {
+  color: #777777; }
+
 .border-l-l {
   border-left: 1px solid #f2f2f2; }
 
 .code {
   font-family: monospace; }
+
+td {
+  border-bottom: 1px solid #f2f2f2; }
 
 /*- Typography -*/
 body {
