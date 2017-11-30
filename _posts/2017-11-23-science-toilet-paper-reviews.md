@@ -5,7 +5,7 @@ header: Let's Science The Sh*t Out Of Toilet Paper Reviews
 duration: 7 minutes read
 ---
 
-Toilet papers. Seems like an insignificant common household item. But, did you know that there are over fifty brands of toilet paper on just Amazon.com - with over 9000 products listings?
+Toilet papers. Seems like an insignificant everyday household item. But, did you know that there are over 50 brands of toilet paper on just Amazon.com - with over 9000 product listings?
 
 So, how exactly does one pick the right toilet paper to use - hopefully in a quantified, scientific way?
 
