@@ -4,7 +4,7 @@
  <title>Blog - technology and science at TheReviewIndex</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-11-30T19:45:21-03:00</updated>
+ <updated>2017-11-30T20:22:25-03:00</updated>
  <author>
    <name>The Review Index</name>
    <uri>https://thereviewindex.com</uri>
@@ -18,7 +18,7 @@
    <link href="http://localhost:4000/science-toilet-paper-reviews"/>
    <id>http://localhost:4000/science-toilet-paper-reviews</id>
    <updated>2017-11-23T00:00:00-03:00</updated>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;img/tp-header.png&quot; /&gt;&lt;/p&gt; &lt;p&gt;Toilet papers. Seems like an insignificant everyday household item. But, did you know that there are over 50 brands of toilet paper on just Amazon.com - with over 9000 product listings?&lt;/p&gt; &lt;p&gt;So, how exactly does one pick the right toilet paper to use - hopefully in a...</content>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;img/tp-header.png&quot; /&gt;&lt;/p&gt; &lt;p&gt;Toilet papers. Seemingly a trivial household item that touches our lives everyday. But not as insignificant as one would imagine. Did you know that there are over 50 brands of toilet paper just on Amazon.com - with over 9000 product listings?&lt;/p&gt; &lt;p&gt;So, how exactly does one pick...</content>
  </entry>
 
  
