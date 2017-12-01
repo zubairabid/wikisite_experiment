@@ -12,19 +12,18 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
 
   <!-- Open Graph -->
-  <meta property="og:title" content={%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}>
+  <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:type" content: "website">
-  <meta property="og:url" content: {{page.url}}>
-  { property: 'og:description', content: description },
-  { property: 'og:locale', content: 'en_' + this.props.params.country},
-  { property: 'og:site_name', content: 'The Review Index' },
-  //image tags for og
+  <meta property="og:url" content= "https://thereviewindex.com/blog{{page.url}}">
+  <meta property="og:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:locale" content= "en_US">
+  <meta property="og:site_name" content="The Review Index">
   
-  // twitter card
-  { property: 'twitter:card', content: 'summary' },
-  { property: 'twitter:title', content: 'User Review Summaries for Gadgets' },
-  { property: 'twitter:description', content: description },
-  { property: 'twitter:url', content: 'https://thereviewindex.com' },
+  <!-- twitter card -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="twitter:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="twitter:url" content= "https://thereviewindex.com/blog{{page.url}}">
 
 
 	<!-- RSS -->
