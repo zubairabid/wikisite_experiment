@@ -9,15 +9,15 @@ description: TheReviewIndex aspires to simplify the discovery and research proce
 
 &nbsp;
 
-We are TheReviewIndex.com - here to help you discover the right gadgets for your very individual needs.
+We are TheReviewIndex.
 
-The internet is a source of a humongous amounts of unstructured content for all sorts of products, in the form of blogs, videos, user and expert reviews, etc. It is almost impossible for anyone to scour all of this disparate (sometimes spammy) data, with contradictory opinions, and thereafter make an ideal, or at least optimal, purchase decision.
+We thought reading reviews, on sites like Amazon, is a bit too tedious. Most products have hundreds, even thousands of reviews. It's impossible to make sense of that many reviews, let alone compare across products.
 
-To help tackle these issues, we created [The Review Index](https://thereviewindex.com) - a discovery and research engine, which simplifies the process of researching products online. We crawl various sources on the internet, and aggregate opinions and reviews for products. Leveraging cutting-edge Machine Learning Algorithms and Artificial Neural Networks, we detect fine-grained topics and implicit sentiment, after blacklisting fraudulant content. This information is churned and presented as an unbiased, feature-wise summary scorecard of the aggregate opinion, along with the relevant pros and cons. Not just that, you can also use the search engine to discover products based on your specific feature requirements. Lastly, the engine compares the prices for products across all the online stores, to conclude which one has the most cost-effective offering.
+So we built [The Review Index](https://thereviewindex.com) that uses Neural Networks to detect and quantify recurring patterns in reviews, enabling one to go through thousands of reviews in a few minutes.
 
-We launched a public beta on January 11th, with three categories - mobiles, televisions and speakers. At the point of writing this, we have added three more categories - routers, microwaves and washing machines,
+Also - we call out products with significant volumes of spam / fake reviews so that one doesn't end up trusting them. 
 
-This is just the beginning of our journey. We are working on adding new categories (in electronics, home appliances, etc.) and iterating over the product while we are at it. 
+We recently launched a public beta for Amazon (US) electronic / gadget / appliance reviews, and are iterating over the website and algorithms. We will expand to include other marketplaces soon.
 
 There is a lot of data waiting to be churned and presented - stay tuned! 
 

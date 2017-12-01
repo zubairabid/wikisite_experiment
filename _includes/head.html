@@ -8,7 +8,24 @@
   <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
 	<!-- CSS & fonts -->
-	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content={%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}>
+  <meta property="og:type" content: "website">
+  <meta property="og:url" content: {{page.url}}>
+  { property: 'og:description', content: description },
+  { property: 'og:locale', content: 'en_' + this.props.params.country},
+  { property: 'og:site_name', content: 'The Review Index' },
+  //image tags for og
+  
+  // twitter card
+  { property: 'twitter:card', content: 'summary' },
+  { property: 'twitter:title', content: 'User Review Summaries for Gadgets' },
+  { property: 'twitter:description', content: description },
+  { property: 'twitter:url', content: 'https://thereviewindex.com' },
+
 
 	<!-- RSS -->
 	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
