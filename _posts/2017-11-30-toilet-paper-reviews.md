@@ -85,7 +85,7 @@ We can now cluster the review sentences to extract the most spoken about topics 
   </tr>
   <tr>
     <td>Comfort</td>
-    <td><i>"soft", "cushy", "its like wiping my fat bottom with angel tears"</i> ...</td>
+    <td><i>"soft", "cushy", "softest TP out there", "little ruff on the bum"</i> ...</td>
   </tr>
   <tr>
     <td>Value For Money</td>
@@ -105,7 +105,7 @@ We can now cluster the review sentences to extract the most spoken about topics 
   </tr>
   <tr>
     <td>Dispenser</td>
-    <td><i>"barely fit my holder"</i> ...</td>
+    <td><i>"barely fit my holder", "might not fit in your dispenser"</i> ...</td>
   </tr>
   <tr class="fc-light">
     <td>Gag Gift</td>
@@ -144,7 +144,7 @@ Let's look at the final set of clusters with their volume distribution:
 
 All the cluster sentences are then passed through our custom sentiment classifier to arrive at the positive and negative polarity. This gives us a topic-wise polarity of the products. We can now start to compare topics across products to arrive at an overall product ranking.
 
-The <span class="fw-400">best</span> products, according to our analysis are:
+The <span class="fw-400">best</span> products, according to our analysis are (<a href="https://www.amazon.com//dp/B00YMVI5DC">#1</a>, <a href="https://www.amazon.com//dp/B00XSFLOCC"> #2</a>):
 
 [//]: # (Best 2 - Overall)
 
@@ -172,7 +172,7 @@ The <span class="fw-400">best</span> products, according to our analysis are:
   </div>
 </div>
 
-... and the <span class="fw-400">worst</span> products on our list are:
+... and the <span class="fw-400">worst</span> products on our list are (<a href="https://www.amazon.com//dp/B01GTNVWYO">#243</a>, <a href="https://www.amazon.com//dp/B01B4N9Y6C"> #242</a>):
 
 [//]: # (Worst 2 - Overall)
 
@@ -203,7 +203,7 @@ The <span class="fw-400">best</span> products, according to our analysis are:
 
 Note that <span class="fw-400">we not only have a ranking, but also a justification</span> - for example the worst product is a Tubeless TP, which seems to have a lot of holder / dispenser related compaints.
 
-We can even sort by any topic and pick the topic-wise best products, for example the best TPs for preventing <span class="fw-400">clogging</span> are:
+We can even sort by any topic and pick the topic-wise best products, for example the best TPs for preventing <span class="fw-400">clogging</span> are (<a href="https://www.amazon.com//dp/B00ZTJ25XW">Clog #1</a>, <a href="https://www.amazon.com//dp/B01BT3U312">Clog #2</a>):
 
 
 [//]: # (Best 2 - Clog)
@@ -234,7 +234,7 @@ We can even sort by any topic and pick the topic-wise best products, for example
 
 Why stop at just toilet papers?
 
-We at [The<span class="fw-400">Review</span>Index](https://thereviewindex.com) believe that similar techniques can be used for analyzing all kinds of reviews - which is why we've just launched a tool that creates spam filtered review summaries for any Amazon.com electronic / gadget / appliance.
+We at [The<span class="fw-400">Review</span>Index.com](https://thereviewindex.com) believe that similar techniques can be used for analyzing all kinds of reviews - which is why we've just launched a tool that creates spam filtered review summaries for any Amazon.com electronic / gadget / appliance.
 
 
 <img src="img/shopping.jpg">
