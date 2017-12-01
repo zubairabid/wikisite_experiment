@@ -240,7 +240,6 @@ Why stop at just toilet papers?
 
 We at [The<span class="fw-400">Review</span>Index](https://thereviewindex.com) believe that similar techniques can be used for analyzing all kinds of reviews - which is why we've just launched a tool that creates spam filtered review summaries for any Amazon.com electronic / gadget / appliance.
 
-You can try the tool out here: [https://thereviewindex.com](https://thereviewindex.com) and let us know what you think in the comments section below.
 
 <img src="img/shopping.jpg">
 

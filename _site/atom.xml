@@ -4,7 +4,7 @@
  <title>Blog - technology and science at TheReviewIndex</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-11-30T20:45:34-03:00</updated>
+ <updated>2017-11-30T23:46:05-03:00</updated>
  <author>
    <name>The Review Index</name>
    <uri>https://thereviewindex.com</uri>
@@ -15,9 +15,9 @@
 
  <entry>
    <title>Let's science the sh*t out of Toilet Paper Reviews</title>
-   <link href="http://localhost:4000/science-toilet-paper-reviews"/>
-   <id>http://localhost:4000/science-toilet-paper-reviews</id>
-   <updated>2017-11-23T00:00:00-03:00</updated>
+   <link href="http://localhost:4000/toilet-paper-reviews"/>
+   <id>http://localhost:4000/toilet-paper-reviews</id>
+   <updated>2017-11-30T00:00:00-03:00</updated>
    <content type="html">&lt;p&gt;&lt;img src=&quot;img/tp-header.png&quot; /&gt;&lt;/p&gt; &lt;p&gt;Toilet papers. Seemingly a trivial household item that touches our lives everyday. But not as insignificant as one would imagine. Did you know that there are over 50 brands of toilet paper just on Amazon.com - with over 9000 product listings?&lt;/p&gt; &lt;p&gt;So, how exactly does one pick...</content>
  </entry>
 
@@ -27,7 +27,7 @@
    <title>Frequently Asked Questions - TheReviewIndex</title>
    <link href="http://localhost:4000/frequently-asked-questions"/>
    <id>http://localhost:4000/frequently-asked-questions</id>
-   <updated>2017-11-15T00:00:00-03:00</updated>
+   <updated>2017-11-22T00:00:00-03:00</updated>
    <content type="html">&lt;p&gt;What is TheReviewIndex all about?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;We thought reading reviews, on sites like Amazon, is a bit too tedious. Most products have hundreds, even thousands of reviews. It’s impossible to make sense of that many reviews, let alone compare across products. So we built &lt;a href=&quot;https://thereviewindex.com&quot;&gt;The Review Index&lt;/a&gt; that uses...</content>
  </entry>
 
@@ -37,7 +37,7 @@
    <title>Hello World - TheReviewIndex</title>
    <link href="http://localhost:4000/hello-world"/>
    <id>http://localhost:4000/hello-world</id>
-   <updated>2017-11-05T00:00:00-03:00</updated>
+   <updated>2017-11-10T00:00:00-03:00</updated>
    <content type="html">&lt;p&gt; &lt;/p&gt; &lt;p&gt;Hi there.&lt;/p&gt; &lt;p&gt;We are TheReviewIndex.&lt;/p&gt; &lt;p&gt;We thought reading reviews, on sites like Amazon, is a bit too tedious. Most products have hundreds, even thousands of reviews. It’s impossible to make sense of that many reviews, let alone compare across products.&lt;/p&gt; &lt;p&gt;So we built &lt;a href=&quot;https://thereviewindex.com&quot;&gt;The Review Index&lt;/a&gt; that uses...</content>
  </entry>
 
