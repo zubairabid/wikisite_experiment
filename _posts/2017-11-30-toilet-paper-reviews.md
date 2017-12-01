@@ -30,7 +30,7 @@ These often involve analyzing the physical characteristics of TP using tests suc
 
 The good part about such types of evaluations is that they can be completely objective. The tests (if conducted properly) can provide objective and precise measurements. 
 
-The issue with this kind of evaluation, though, is that it is often impossible to arrive at tests that can grade each and every aspect of a product or incorporate actual consumer experiences - for eg. what kind of a test can be used to quantify "comfort" ? 
+The issue with this kind of evaluation, though, is that it is often impossible to arrive at tests that can grade each and every aspect of a product or incorporate actual consumer experiences - for example. what kind of a test can be used to quantify "comfort" ? 
 
 ### Surveys
 A possible solution to the above problem, is to perhaps involve the consumers in the grading process - after all who better to measure the product than the end users of the product itself!
@@ -77,55 +77,51 @@ We can now cluster the review sentences to extract the most spoken about topics 
   </tr>
   <tr class="fc-light">
     <td>Marketplace / Delivery &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td>"was delivered on time", "doorstep delivery" ...</td>
+    <td><i>"was delivered on time", "doorstep delivery"</i> ...</td>
   </tr>
   <tr>
     <td>Paper Quality</td>
-    <td>"strong", "durable", "doesn't tear" ...</td>
+    <td><i>"strong", "durable", "doesn't tear"</i> ...</td>
   </tr>
   <tr>
     <td>Comfort</td>
-    <td>"soft", "cushy", "its like wiping my fat bottom with angel tears" ...</td>
+    <td><i>"soft", "cushy", "its like wiping my fat bottom with angel tears"</i> ...</td>
   </tr>
   <tr>
     <td>Value For Money</td>
-    <td>"worth the price", "bargain", "rip off" ...</td>
+    <td><i>"worth the price", "bargain", "rip off"</i> ...</td>
   </tr>
   <tr>
     <td>Lasts Long</td>
-    <td>"lasts forever", "ran out in a day" ...</td>
-  </tr>
-  <tr>
-    <td>Size</td>
-    <td>"not as big as expected", "just right in size" ...</td>
+    <td><i>"lasts forever", "ran out in a day", "larger than expected"</i> ...</td>
   </tr>
   <tr>
     <td>Cleaning</td>
-    <td>"squeaky clean bum", "leaves quite a bit of fuzz behind" ...</td>
+    <td><i>"squeaky clean bum", "leaves quite a bit of fuzz behind"</i> ...</td>
   </tr>
   <tr>
     <td>Clogging</td>
-    <td>"clogs the sewer line", "gentle on the plumbing", "had to use the plunger" ...</td>
+    <td><i>"clogs the sewer line", "gentle on the plumbing", "had to use the plunger"</i> ...</td>
   </tr>
   <tr>
     <td>Dispenser</td>
-    <td>"barely fit my holder" ...</td>
+    <td><i>"barely fit my holder"</i> ...</td>
   </tr>
   <tr class="fc-light">
     <td>Gag Gift</td>
-    <td>"gag gift for my roommate", "gift as a prank" ...</td>
+    <td><i>"gag gift for my roommate", "gift as a prank"</i> ...</td>
   </tr>
   <tr class="fc-light">
     <td>Eco-Friendly</td>
-    <td>"environmentally friendly", "made of recycled paper" ...</td>
+    <td><i>"environmentally friendly", "made of recycled paper"</i> ...</td>
   </tr>
   <tr class="fc-light">
     <td>Travel</td>
-    <td>"carry in your purse or pocket", "great for travel" ...</td>
+    <td><i>"carry in your purse or pocket", "great for travel"</i> ...</td>
   </tr>
   <tr class="fc-light">
     <td>Perfumed TPs</td>
-    <td>"smell is so strong", "smell soooooo good" ...</td>
+    <td><i>"smell is so strong", "smell soooooo good"</i> ...</td>
   </tr>
 </table>
 
@@ -205,9 +201,9 @@ The <span class="fw-400">best</span> products, according to our analysis are:
 </div>
 
 
-Note that we not only have a ranking, but also a justification - for eg. the worst product is a Tubeless TP, which seems to have a lot of holder / dispenser related compaints.
+Note that <span class="fw-400">we not only have a ranking, but also a justification</span> - for example the worst product is a Tubeless TP, which seems to have a lot of holder / dispenser related compaints.
 
-We can even sort by any topic and pick the topic-wise best products, for eg. the best TPs for preventing <span class="fw-400">clogging</span> are:
+We can even sort by any topic and pick the topic-wise best products, for example the best TPs for preventing <span class="fw-400">clogging</span> are:
 
 
 [//]: # (Best 2 - Clog)
