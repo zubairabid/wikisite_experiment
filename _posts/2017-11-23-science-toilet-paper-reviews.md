@@ -1,7 +1,7 @@
 ---
 title: Let's science the sh*t out of Toilet Paper Reviews 
 description: Thousands of toilet paper reviews analyzed scientifically to determine the best quality products.
-header: Let's Science The Sh*t Out Of Toilet Paper Reviews
+header: Let's science the sh*t out of Toilet Paper Reviews
 duration: 7 minutes read
 ---
 
