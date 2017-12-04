@@ -239,6 +239,9 @@ You can try out it out here:
 
 [https://thereviewindex.com](https://thereviewindex.com)
 
+&nbsp;
+
+
 <img src="img/shopping.jpg">
 
 
