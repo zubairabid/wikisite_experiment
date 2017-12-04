@@ -8,9 +8,7 @@ ogimage: img/tp-ogimage.png
 
 <img src="img/tp-header.png" />
 
-Toilet papers. Seemingly a trivial household item that touches our lives everyday. But not as insignificant as one would imagine. Did you know that there are over 50 brands of toilet paper just on Amazon.com - with over 9000 product listings?
-
-So, how exactly does one pick the right toilet paper to use - hopefully in a quantified, scientific way?
+Toilet papers. A trivial household item, but touches us in our everyday lives. Amazon.com lists over 50 brands of Toilet Papers. With over 9000 product listings, how exactly does one pick the right toilet paper - hopefully in a quantified, scientific way?
 
 Let us look at the possible methods of evaluation:
 * Physical / Mechanical tests
