@@ -4,7 +4,7 @@
  <title>Blog - technology and science at TheReviewIndex</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-12-04T10:26:24-03:00</updated>
+ <updated>2017-12-04T11:14:33-03:00</updated>
  <author>
    <name>The Review Index</name>
    <uri>https://thereviewindex.com</uri>
@@ -15,8 +15,8 @@
 
  <entry>
    <title>Let's science the sh*t out of Toilet Paper Reviews</title>
-   <link href="http://localhost:4000/toilet-paper-reviews"/>
-   <id>http://localhost:4000/toilet-paper-reviews</id>
+   <link href="http://localhost:4000/science-toilet-paper-reviews"/>
+   <id>http://localhost:4000/science-toilet-paper-reviews</id>
    <updated>2017-11-30T00:00:00-03:00</updated>
    <content type="html">&lt;p&gt;&lt;img src=&quot;img/tp-header.png&quot; /&gt;&lt;/p&gt; &lt;p&gt;Toilet papers. A trivial household item, but touches us in our everyday lives. Amazon.com lists over 50 brands of Toilet Papers. With over 9000 product listings, how exactly does one pick the right toilet paper - hopefully in a quantified, scientific way?&lt;/p&gt; &lt;p&gt;Let us look at the...</content>
  </entry>
