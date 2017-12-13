@@ -35,7 +35,7 @@ How can I trust TheReviewIndex? How do I know that the evaluation is fair?
 
 How does the site make money?
 
-> The site has been and will always remain free for our users. We plan to make money via ads or affiliate partnerships with online stores.
+> We do not make any money from the site. The site has been and will always remain free for our users.
 
 
 How do you deal with review spam?
