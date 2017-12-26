@@ -5,6 +5,9 @@ header: Help Keep TheReviewIndex Free!
 duration: 5 minutes read
 ---
 
+We believe this site should remain independent, unbaised and always free for users. Help keep it this way. 
+
+
 Coming Soon!
 
 
