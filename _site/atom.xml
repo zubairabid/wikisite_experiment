@@ -4,12 +4,29 @@
  <title>Blog - technology and science at TheReviewIndex</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-12-04T18:34:03-03:00</updated>
+ <updated>2017-12-26T10:13:38-03:00</updated>
  <author>
    <name>The Review Index</name>
    <uri>https://thereviewindex.com</uri>
    <email>root@thereviewindex.com</email>
  </author>
+
+ 
+
+ <entry>
+   <title>Help Keep TheReviewIndex Free!</title>
+   <link href="http://localhost:4000/contribute"/>
+   <id>http://localhost:4000/contribute</id>
+   <updated>2017-12-25T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;Coming Soon!&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Have more questions? Send them out to &lt;strong&gt;root@thereviewindex.com&lt;/strong&gt; and we will revert as soon as possible.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</content>
+ </entry>
 
  
 
