@@ -33,11 +33,6 @@ How can I trust TheReviewIndex? How do I know that the evaluation is fair?
 > We have deliberated over this question from the very beginning. Since building and keeping trust with you is very important to us, we have designed the product to ensure that every score or recommendation is strongly supported by solid evidence. If you want to drill deeper, you can click through and read all individual user comments that contributes toward the score of each feature. Not just that, all these comments are properly attributed and linked back to the origin.  
 
 
-How does the site make money?
-
-> We do not make any money from the site. The site has been and will always remain free for our users.
-
-
 How do you deal with review spam?
 
 > One of the major concerns of online opinions is the problem of spam and incentivized reviews. Although, a single spammy review does not receive too much importance (since we rely on mass opinion for making our judgements), several spammy reviews can be misleading, often drowning actual user opinion.
@@ -47,7 +42,7 @@ How do you deal with review spam?
 
 I'm a brand and my product is rated poorly. What can I do?
 
-> Short answer is nothing. We rely on user reviews from marketplaces to derive and present our conclusions. As the sentiment in organic reviews improves, our summaries will improve too.
+> Short answer - improve your product. We rely on user reviews from marketplaces to derive and present our conclusions. As the sentiment in organic reviews improves, our summaries will improve too.
 
 &nbsp;
 
