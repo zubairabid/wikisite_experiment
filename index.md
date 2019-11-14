@@ -18,3 +18,6 @@ def hello():
 Exposing the internals of the site:
 - [404](404) Page
 - [About this](about) 
+
+
+Testing a new [page](subdir/page)
